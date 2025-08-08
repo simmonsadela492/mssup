@@ -1,179 +1,157 @@
+
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tangem Help Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0b0c2a, #0f112f);
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="text-white px-4 py-6 space-y-8">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Tangem Support</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+  <!-- Header -->
+  <header class="flex justify-between items-center">
+    <div class="flex items-center space-x-2">
+      <img src="https://tangem.com/favicon.ico" alt="Tangem Logo" class="w-6 h-6">
+      <span class="text-white font-semibold text-lg">tangem</span>
+    </div>
+    <div class="flex items-center space-x-2">
+      <a href="tel:+18014578451" class="bg-blue-500 text-white text-sm px-4 py-2 rounded-lg font-medium">Call Now</a>
+      <div class="text-white text-2xl">&#9776;</div>
+    </div>
+  </header>
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
+  <!-- Help Center -->
+  <section class="text-center">
+    <p class="text-gray-400 text-sm">We're here to help</p>
+    <h1 class="text-7xl font-bold text-white mt-1">Help Center</h1>
+    <p class="mt-4 text-gray-300 text-center">
+      For Technical support:<br>
+      <a href="tel:+18014578451" class="text-blue-400 font-semibold text-5xl hover:underline">+1 8014578451</a>
+    </p>
+  </section>
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Get Started Card -->
+  <div class="bg-black/50 rounded-xl p-5">
+    <h2 class="text-white text-lg font-semibold mb-1">Get started.</h2>
+    <p class="text-gray-300 mb-3 text-sm">Easy set up Tangem and start using it.</p>
+    <a href="#" class="text-blue-400 font-medium hover:underline">Start now &gt;</a>
+    <div class="mt-4">
+      <img src="" alt="" class="w-full rounded-md" />
+    </div>
+  </div>
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Tangem Guide and AMAs Cards -->
+  <div class="space-y-6">
+    <div class="bg-black/50 rounded-xl p-5">
+      <h2 class="text-white font-semibold">Tangem Guide. <span class="text-gray-300 font-normal">All about Tangem products and the main features of their use.</span></h2>
+      <a href="#" class="text-blue-400 font-medium block mt-2">Check Guide &gt;</a>
+      <img src="" alt="" class="w-full mt-4 rounded-md" />
+    </div>
 
+    <div class="bg-black/50 rounded-xl p-5">
+      <h2 class="text-white font-semibold">Tangem AMAs. <span class="text-gray-300 font-normal">Learn more about Tangem from our expert speakers</span></h2>
+      <a href="#" class="text-blue-400 font-medium block mt-2">Watch now &gt;</a>
+      <img src="" alt="" class="w-16 mt-4" />
+    </div>
+  </div>
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Help Topics -->
+  <div class="space-y-4">
+    <!-- Getting started -->
+    <div class="bg-black/50 p-4 rounded-lg flex items-start space-x-4">
+      <svg class="w-6 h-6 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 14l9-5-9-5-9 5 9 5zm0 0v6m0-6L3 9m9 5l9-5" />
+      </svg>
+      <div>
+        <h3 class="font-bold">Getting started</h3>
+        <p class="text-gray-400 text-sm">Everything you need to know to begin using your Tangem wallet</p>
+      </div>
+    </div>
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- General -->
+    <div class="bg-black/50 p-4 rounded-lg flex items-start space-x-4">
+      <svg class="w-6 h-6 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 20h9M3 4h18M4 8h16M4 12h16M4 16h16" />
+      </svg>
+      <div>
+        <h3 class="font-bold">General</h3>
+        <p class="text-gray-400 text-sm">All about Tangem products and the main features of their use</p>
+      </div>
+    </div>
 
-    <body>
+    <!-- Security -->
+    <div class="bg-black/50 p-4 rounded-lg flex items-start space-x-4">
+      <svg class="w-6 h-6 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </svg>
+      <div>
+        <h3 class="font-bold">Security</h3>
+        <p class="text-gray-400 text-sm">The main thing about the security of Tangem products</p>
+      </div>
+    </div>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
+    <!-- Coins & Tokens -->
+    <div class="bg-black/50 p-4 rounded-lg flex items-start space-x-4">
+      <svg class="w-6 h-6 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 8c1.657 0 3-1.343 3-3S13.657 2 12 2 9 3.343 9 5s1.343 3 3 3zM12 14v8m0-8c-4 0-8-2-8-6V5.5M12 14c4 0 8-2 8-6V5.5" />
+      </svg>
+      <div>
+        <h3 class="font-bold">Coins & Tokens</h3>
+        <p class="text-gray-400 text-sm">Answers to questions about support for tokens and blockchains</p>
+      </div>
+    </div>
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                   
-                   <img src="https://tangem.com/favicon.ico" alt="Tangem Logo" class="w-6 h-6">
-                    <span class="text-white font-semibold text-lg">Tangem</span>
-                </a>
-               
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    
-                    <div class="d-none d-xl-flex me-3">
-                        <div class="d-flex flex-column pe-3 border-end border-primary">
-                            <span class="text-body">Get Instant Support</span>
-                            <a href="tel:+18014578451"><span class="text-primary">TollFree +1-801-457-8451</span></a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </nav>
+    <!-- Fund Transfers -->
+    <div class="bg-black/50 p-4 rounded-lg flex items-start space-x-4">
+      <svg class="w-6 h-6 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+      <div>
+        <h3 class="font-bold">Fund transfers</h3>
+        <p class="text-gray-400 text-sm">Everything about transferring funds using Tangem wallets</p>
+      </div>
+    </div>
 
-            <!-- Header Start -->
-            <div class="container-fluid bg-breadcrumb">
-                //<div class="container text-center py-5" style="max-width: 900px;">
-                    <h1 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Tangem Hardware Wallet Customer Support TollFree +1-801-457-8451</h1>
-                       
-                </div>
-            </div>
-            <!-- Header End -->
-        </div>
-        <!-- Navbar & Hero End -->
+    <!-- App Functionality -->
+    <div class="bg-black/50 p-4 rounded-lg flex items-start space-x-4">
+      <svg class="w-6 h-6 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 18h.01M7.5 4h9A2.5 2.5 0 0119 6.5v11A2.5 2.5 0 0116.5 20h-9A2.5 2.5 0 015 17.5v-11A2.5 2.5 0 017.5 4z" />
+      </svg>
+      <div>
+        <h3 class="font-bold">App Functionality</h3>
+        <p class="text-gray-400 text-sm">The main information about the functionality of the Tangem application</p>
+      </div>
+    </div>
+  </div>
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title mb-0" id="exampleModalLabel"></h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text btn border p-3"><i class="fa fa-search text-white"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
+  <!-- Footer -->
+  <footer class="mt-10 text-sm text-gray-400">
+    <div class="mb-4">
+      <img src="https://tangem.com/favicon.ico" alt="Tangem Logo" class="w-6 inline-block mr-2">
+      <span class="text-white font-semibold">tangem</span>
+    </div>
+    <p>Global Headquarters, Tangem AG<br>Baarerstrasse 10, 6300 Zug, Switzerland</p>
+    <p class="mt-2"><a href="mailto:support@tangem.com" class="underline text-white">support@tangem.com</a></p>
+  </footer>
 
-        <!-- Contact Start -->
-        <div class="container-fluid contact bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-6 h-100 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                            
-                            <h1 class="display-3 text-capitalize mb-3">Tangem Hardware Wallet Customer Support TollFree +1-801-457-8451</h1>
-                            <p class="mb-0">Click to call Tangem Hardware Wallet customer support for intant help,24x7 helpline number .</p>
-                            <p class="mb-0">Get started.
-Easy set up Tangem and start using it.
-
-Start now > .</p>
-                        </div>
-                        
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        
-                            <div class="col-lg-12 col-xl-6">
-                                <div class="d-inline-flex rounded bg-white w-100 p-4">
-                                    <i class="fa fa-phone-alt fa-2x text-secondary me-4"></i>
-                                    <div>
-                                        <h4>Telephone</h4>
-                                        <a href="tel:+18014578451"><span class="text-primary">TollFree +1-801-457-8451</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-
-        
-
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Tangem Hardware Wallet</a>, All right reserved.</span>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
-        
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    </body>
-
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
